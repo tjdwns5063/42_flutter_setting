@@ -28,11 +28,11 @@ $HOME/goinfre/android_sdk 경로로 지정합니다.
 
 Plugins 탭에서 Flutter를 검색한 후 설치 해주세요.
 
-<img src="./pic/android_studio_plugin.png" width="400px" height="400px" title="Android Plugin"/>
+<img src="./pic/android_studio_plugin.png" width="700px" height="500px" title="Android Plugin"/>
 
 ## 5. Android cmd-line tools 설치
 
-<img src="./pic/android_studio_init.png" width="400px" height="400px" title="Android Init"/>
+<img src="./pic/android_studio_init.png" width="700px" height="500px" title="Android Init"/>
 
 안드로이드 스튜디오에서 New Flutter Project를 클릭해서 프로젝트를 생성합니다.
 
@@ -53,7 +53,7 @@ flutter doctor --android-licenses
 
 그 후 flutter doctor를 실행했을 때,  Xcode를 제외하고 모두 체크된 것을 확인 해주세요.
 
-<img src="./pic/flutter_doctor_success.png" width="500px" height="400px" title="Flutter Doctor Success"/>
+<img src="./pic/flutter_doctor_success.png" width="700px" height="500px" title="Flutter Doctor Success"/>
 
 ## 7. Android Emulator 만들기
 
@@ -61,14 +61,14 @@ flutter doctor --android-licenses
 
 Tools > Device Manager를 클릭합니다.
 
-<img src="./pic/android_studio_device_manager.png" width="500px" height="400px" title="Android Device Manager"/>
+<img src="./pic/android_studio_device_manager.png" width="700px" height="500px" title="Android Device Manager"/>
 
 Device Manager 탭에서 Create Divice를 클릭합니다.
 
 여러 기기 목록중에 밑으로 내려서 Pixel2를 선택합니다.
 (다른 기기 선택해도 되지만 너무 큰 기기 선택시 맥 성능상  원활한 작업 어려울 수 있음) 
 
-<img src="./pic/android_studio_create_device.png" width="500px" height="400px" title="Android Device Create"/>
+<img src="./pic/android_studio_create_device.png" width="700px" height="500px" title="Android Device Create"/>
 
 System Image에서 기본으로 선택된 R(API 30)을 설치합니다.
 (R 옆에 내려받기 버튼 선택)
@@ -81,7 +81,7 @@ System Image에서 기본으로 선택된 R(API 30)을 설치합니다.
 
 디바이스가 생성됐다면, $HOME/.android/avd/ 경로를 확인합니다.
 
-<img src="./pic/android_avd.png" width="500px" height="400px" title="Android AVD"/>
+<img src="./pic/android_avd.png" width="700px" height="500px" title="Android AVD"/>
 
 디바이스 이름.avd 디렉토리를 goinfre 디렉토리로 옮깁니다.
 
@@ -91,12 +91,12 @@ mv Pixel_2_API_30.avd $HOME/goinfre
 
 경로를 절대경로로 정확히 적어주세요.
 
-<img src="./pic/android_ini.png" width="500px" height="400px" title="Android INI"/>
+<img src="./pic/android_ini.png" width="700px" height="500px" title="Android INI"/>
 
 Android Studio에서 생성한 디바이스를 실행해봅니다.
 
 
-<img src="./pic/android_avd_success.png" width="500px" height="400px" title="Android AVD Success"/>
+<img src="./pic/android_avd_success.png" width="700px" height="500px" title="Android AVD Success"/>
 
 
 
