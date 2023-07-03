@@ -36,11 +36,14 @@ Plugins 탭에서 Flutter를 검색한 후 설치 해주세요.
 
 안드로이드 스튜디오에서 New Flutter Project를 클릭해서 프로젝트를 생성합니다.
 
-<img src="./pic/android_sdk_manager" width="400px" height="400px" title="Android SDK Manager"/>
+<img src="./pic/android_sdk_manager.png" width="700px" height="500px" title="Android SDK Manager"/>
 
 상단 메뉴에서 Tools > SDK Manager를 클릭합니다.
 
 SDK Tools 탭을 선택한 후 Android SDK Command-line Tools(latest)를 체크한 후 OK 버튼을 클릭하면 설치가 진행됩니다.
+
+<img src="./pic/android_studio_cmdl_line_tool.png" width="700px" height="500px" title="Android Cmd-line"/>
+
 
 ## 6. Android licenses 동의하기
 
@@ -50,19 +53,27 @@ flutter doctor --android-licenses
 
 그 후 flutter doctor를 실행했을 때,  Xcode를 제외하고 모두 체크된 것을 확인 해주세요.
 
+<img src="./pic/flutter_doctor_success.png" width="500px" height="400px" title="Flutter Doctor Success"/>
+
 ## 7. Android Emulator 만들기
 
-아까 만들었던 안드로이드 프로젝트를 엽니다.
+아까 만들었던 프로젝트를 엽니다.
 
 Tools > Device Manager를 클릭합니다.
+
+<img src="./pic/android_studio_device_manager.png" width="500px" height="400px" title="Android Device Manager"/>
 
 Device Manager 탭에서 Create Divice를 클릭합니다.
 
 여러 기기 목록중에 밑으로 내려서 Pixel2를 선택합니다.
 (다른 기기 선택해도 되지만 너무 큰 기기 선택시 맥 성능상  원활한 작업 어려울 수 있음) 
 
+<img src="./pic/android_studio_create_device.png" width="500px" height="400px" title="Android Device Create"/>
+
 System Image에서 기본으로 선택된 R(API 30)을 설치합니다.
 (R 옆에 내려받기 버튼 선택)
+
+
 
 설치 완료되면 Next 버튼을 쭉 눌러서 생성합니다.
 
@@ -70,7 +81,9 @@ System Image에서 기본으로 선택된 R(API 30)을 설치합니다.
 
 디바이스가 생성됐다면, $HOME/.android/avd/ 경로를 확인합니다.
 
-디바이스이름.avd 디렉토리를 goinfre 디렉토리로 옮깁니다.
+<img src="./pic/android_avd.png" width="500px" height="400px" title="Android AVD"/>
+
+디바이스 이름.avd 디렉토리를 goinfre 디렉토리로 옮깁니다.
 
 mv Pixel_2_API_30.avd $HOME/goinfre
 
@@ -78,8 +91,12 @@ mv Pixel_2_API_30.avd $HOME/goinfre
 
 경로를 절대경로로 정확히 적어주세요.
 
+<img src="./pic/android_ini.png" width="500px" height="400px" title="Android INI"/>
+
 Android Studio에서 생성한 디바이스를 실행해봅니다.
 
+
+<img src="./pic/android_avd_success.png" width="500px" height="400px" title="Android AVD Success"/>
 
 
 
