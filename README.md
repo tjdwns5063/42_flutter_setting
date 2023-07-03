@@ -32,7 +32,11 @@ Plugins 탭에서 Flutter를 검색한 후 설치 해주세요.
 
 ## 5. Android cmd-line tools 설치
 
-안드로이드 프로젝트를 하나 생성합니다.
+<img src="./pic/android_studio_init.png" width="400px" height="400px" title="Android Init"/>
+
+안드로이드 스튜디오에서 New Flutter Project를 클릭해서 프로젝트를 생성합니다.
+
+<img src="./pic/android_sdk_manager" width="400px" height="400px" title="Android SDK Manager"/>
 
 상단 메뉴에서 Tools > SDK Manager를 클릭합니다.
 
