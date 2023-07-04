@@ -12,6 +12,7 @@ if [ -d $PUB_CACHE_DIR ]; then
 	echo ".pub_cache directory is already exits"
 else
 	mkdir $PUB_CACHE_DIR
+	echo ".pub_cache dir created"
 fi
 
 
@@ -19,12 +20,14 @@ if [ -d $GRADLE_DIR ]; then
 	echo "my_gradle directory is already exits"
 else
 	mkdir $GRADLE_DIR
+	echo "my_dradle dir is created"
 fi
 
 if [ -d $ANDROID_SDK_DIR ]; then
 	echo "android_sdk directory is already exits"
 else
 	mkdir $ANDROID_SDK_DIR
+	echo "android_sdk dir is created"
 fi
 	
 RET=`grep $GOINFRE/.pub-cacher $SHELL_PROFILE | wc -l`
