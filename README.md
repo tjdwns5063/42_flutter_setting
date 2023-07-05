@@ -21,8 +21,12 @@ Managed Software Center에서 Android Studio를 설치해주세요.
 
 Missing SDK 화면에서 다음 화면으로 넘어가면 SDK가설치될 화면을 설정할 수 있습니다.
 
+<img src="./pic/android_studio_missing_sdk.png" width="700px" height="500px" title="Android Missing Sdk"/>
+
 $HOME/goinfre/android_sdk 경로로 지정합니다.
 (자유롭게 goinfre 내에 디렉토리를 만들어서 진행하셔도 됩니다.)
+
+<img src="./pic/android_studio_sdk_location.png" width="700px" height="500px" title="Android Sdk Location"/>
 
 ## 4. Android Studio Flutter Plugin 설치
 
